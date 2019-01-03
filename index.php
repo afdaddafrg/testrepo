@@ -3,7 +3,7 @@ echo "newest";
 $dir    = '/tmp';
 $files1 = scandir($dir);
 
-unlink('index.js');
+//unlink('index.js');
 
 $files2 = scandir(getcwd());
 
