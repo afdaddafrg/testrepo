@@ -1,5 +1,5 @@
 <?php
-echo "new";
+echo "newest";
 $dir    = '/tmp';
 $files1 = scandir($dir);
 
