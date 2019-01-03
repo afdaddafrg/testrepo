@@ -1,9 +1,9 @@
 <?php
-echo "newest";
+echo "newest1";
 $dir    = '/tmp';
 $files1 = scandir($dir);
 
-//unlink('index.js');
+unlink('index.js');
 
 $files2 = scandir(getcwd());
 
